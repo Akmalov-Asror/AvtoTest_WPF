@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\18077060_2103866886506459_5368506036395230140_o.jpg" />
+    <None Remove="Pages\2020-porsche-taycan-exterior-4.jpg" />
+    <None Remove="Pages\unnamed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuestionRepository\QuestionRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pages\18077060_2103866886506459_5368506036395230140_o.jpg" />
+    <Resource Include="Pages\2020-porsche-taycan-exterior-4.jpg" />
+    <Resource Include="Pages\unnamed.png" />
+  </ItemGroup>
+
+</Project>
